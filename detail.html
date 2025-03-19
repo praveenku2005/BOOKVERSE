@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Verse - Book Review Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .hero-section { background: url('book-bg.jpg') no-repeat center; background-size: cover; color: white; padding: 100px 0; text-align: center; }
+        .review-card { box-shadow: 0px 4px 8px rgba(0,0,0,0.2); padding: 20px; border-radius: 10px; }
+        .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(157, 203, 215, 0.9); /* Slightly transparent */
+    z-index: 1000; /* Ensure it stays on top */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+        footer { background: #333; color: white; text-align: center; padding: 15px; }
+    </style>
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <!-- Logo and Brand Name -->
+            <a class="navbar-brand d-flex align-items-center" href="bootstrap.html">
+                <img src="logo2.png" alt="Book Verse Logo" style="height: 40px; width: auto; margin-right: 10px;">
+                <span>BOOK VERSE</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="bootstrap.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="detail.html">Details</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sub.html">Subscription</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <h1>Welcome to Book Verse</h1>
+        <p>Your one-stop destination for book reviews and recommendations.</p>
+    </header>
+    
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+        <h2 class="text-center">About Us</h2>
+        <p class="text-center">Book Verse is a community-driven platform where book lovers can find and share honest reviews on their favorite reads.</p>
+    </section>
+    
+    <!-- Featured Books Section -->
+    <section id="featured" class="container my-5">
+        <h2 class="text-center">Featured Books</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img15.jpg" class="card-img-top" alt="Book 1">
+                    <div class="card-body">
+                        <h5 class="card-title">The Book Thief</h5>
+                        <p class="card-text">A stunning novel by Markus Zusak, set during World War II.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img16.jpg" class="card-img-top" alt="Book 2">
+                    <div class="card-body">
+                        <h5 class="card-title">To Kill a Mockingbird</h5>
+                        <p class="card-text">Harper Lee's classic novel about racial injustice and moral growth.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img17.webp" class="card-img-top" alt="Book 3">
+                    <div class="card-body">
+                        <h5 class="card-title">1984</h5>
+                        <p class="card-text">George Orwell's dystopian masterpiece on surveillance and totalitarianism.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Reviews Section -->
+    <section id="reviews" class="container my-5">
+        <h2 class="text-center">Latest Reviews</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="review-card">
+                    <h5>The Midnight Library</h5>
+                    <p><strong>By Sarah:</strong> A thought-provoking book that explores the concept of second chances in life.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="review-card">
+                    <h5>The Alchemist</h5>
+                    <p><strong>By John:</strong> An inspiring journey about following your dreams and listening to your heart.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5 text-center">
+        <h2>Contact Us</h2>
+        <p>Email: contact@bookverse.com | Follow us on social media</p>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Book Verse | Read, Review, Repeat</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
